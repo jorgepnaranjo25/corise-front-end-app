@@ -48,6 +48,10 @@ def main():
             st.subheader("Podcast Guest Details")
             st.write(podcast_info["podcast_guest"]['summary'])
 
+        # Display the podcast guest details
+        st.subheader("Podcast Guest Details")
+        st.write(podcast_info['podcast_guest'])
+
         # Display the five key moments
         st.subheader("Key Moments")
         key_moments = podcast_info['podcast_highlights']
